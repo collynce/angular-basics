@@ -11,3 +11,7 @@ h3{
 input{
     border: #1976d2 1px solid;
 }
+
+ul{
+    list-style: none;
+}

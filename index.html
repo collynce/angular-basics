@@ -7,21 +7,41 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Angular JS</title>
     <script src="./angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 <div ng-app="myAngularApp" ng-controller="Ctrl">
     <h3>This is my AngularJS Template</h3>
-    <p>Name: <input ng-model="myname" type="text"></p>
-    <p>
-        {{myname}}
-    </p>
+    <ul>
+        <li><a href="#/!">Home</a></li>
+        <li><a href="#!client">Clients</a></li>
+        <li><a href="#!staff">Staff</a></li>
+    </ul>
+    <div ng-view></div>
 </div>
+<div ng-app="myAngularApp">
 
+</div>
 <script>
-    let app = angular.module('myAngularApp', []);
-    app.controller('Ctrl', function ($scope) {
-        $scope.myname = "Collins Kiprotich";
+    let app = angular.module('myAngularApp', ['ngRoute']);
+    app.config(function($routeProvider) {
+        $routeProvider
+            .when("/client", {
+                templateUrl : "client.html",
+                controller: "viewClient"
+            })
+            .when("/staff", {
+                templateUrl : "staff.html",
+                controller: "viewStaff"
+            })
+    });
+    app.controller("viewClient", function($scope) {
+        $scope.message = "This is a client page";
+    });
+    app.controller("viewStaff",function($scope){
+        $scope.message = "This is a staff page";
     });
 </script>
 

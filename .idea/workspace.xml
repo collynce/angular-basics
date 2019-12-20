@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a9cd45b-c21c-4fa0-a48d-9c0348c66bda" name="Default Changelist" comment="" />
+    <list default="true" id="0a9cd45b-c21c-4fa0-a48d-9c0348c66bda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/routes/client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/staff.html" beforeDir="false" afterPath="$PROJECT_DIR$/routes/staff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,20 +20,31 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/angularjs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VFCQ9M5tEcmezolQbyVkMYhR8y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -50,11 +69,21 @@
       <option name="presentableId" value="Default" />
       <updated>1576839436367</updated>
       <workItem from="1576839439136" duration="1575000" />
-      <workItem from="1576852710508" duration="2540000" />
+      <workItem from="1576852710508" duration="5948000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="26" key="SettingsEditor" timestamp="1576859927777">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="141" y="26" key="SettingsEditor/0.23.1280.729@0.23.1280.729" timestamp="1576859927777" />
+    <state x="305" y="76" width="670" height="676" key="search.everywhere.popup" timestamp="1576861727589">
+      <screen x="0" y="23" width="1280" height="729" />
+    </state>
+    <state x="305" y="76" width="670" height="676" key="search.everywhere.popup/0.23.1280.729@0.23.1280.729" timestamp="1576861727589" />
   </component>
 </project>
