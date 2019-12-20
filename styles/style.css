@@ -1,0 +1,13 @@
+body{
+    background: #c2c3c4;
+    text-align: center;
+    margin: 150px;
+}
+
+h3{
+    color: green;
+}
+
+input{
+    border: #1976d2 1px solid;
+}
